@@ -1,0 +1,67 @@
+.divs-setup {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#selector-title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+label {
+    float: left;
+}
+
+.range {
+    width: 50%;
+}
+
+#green {
+    margin-left: -1rem;
+}
+
+#blue {
+    margin-left: -0.05rem;
+}
+
+.range-value {
+    float: right;
+    width: 20%;
+}
+
+#color {
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+}
+
+#color>h4 {
+    margin-top: 1rem;
+}
+
+#square {
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    background-color: lawngreen;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+footer {
+    text-align: justify;
+    line-height: -1.5em;
+}
+
+small {
+    font-style: italic;
+}
+
+i {
+    color: #000;
+    font-size: 1.5rem;
+}

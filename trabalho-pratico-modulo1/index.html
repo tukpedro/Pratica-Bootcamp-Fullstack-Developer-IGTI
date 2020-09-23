@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/554b45999e.js" crossorigin="anonymous"></script>
+    <title>Trabalho Prático - Módulo 1</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="divs-setup container border border-primary rounded bg-light">
+            <h1>Trabalho Prático - Módulo 1</h1>
+            <h3>Bootcamp Fullstack Dev - IGTI</h3>
+        </header>
+
+        <form action="">
+            <article class="divs-setup container border border-info rounded bg-light">
+                <div id="selector-title">
+                    <h4>Visualização de cores RGB</h4>
+                </div>
+
+                <div class="range-group">
+                    <label>(R) Red:</label>
+                    <input type="range" name="" class="range" id="red" value="0" min="0" max="255" step="1" oninput="redValueChange(this.value)" />
+                    <input type="text" name="" class="range-value" id="red-value" disabled />
+                </div>
+
+                <br />
+
+                <div class="range-group">
+                    <label>(G) Green:</label>
+                    <input type="range" name="" class="range" id="green" value="0" min="0" max="255" step="1" oninput="greenValueChange(this.value)" />
+                    <input type="text" name="" class="range-value" id="green-value" disabled />
+                </div>
+
+                <br />
+
+                <div class="range-group">
+                    <label>(B) Blue:</label>
+                    <input type="range" name="" class="range" id="blue" value="0" min="0" max="255" step="1" oninput="blueValueChange(this.value)" />
+                    <input type="text" name="" class="range-value" id="blue-value" disabled />
+                </div>
+
+                <br />
+
+                <div id="color" class="border border-dark rounded">
+                    <h5 id="colorText"></h5>
+                    <div id="square"></div>
+                </div>
+            </article>
+        </form>
+        <footer class="divs-setup container border border-info rounded bg-light">
+            <small>&copy; Copyright 2020, Developed by</small>
+            <br /><br />
+            <p>Pedro Pastuk</p>
+            <a href="http://github.com/tukpedro" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="http://www.linkedin.com/in/pastukpedro-7816b6113/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
